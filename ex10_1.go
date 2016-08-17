@@ -4,7 +4,8 @@ import (
     "fmt"
     "image"
     "image/jpeg"
-    _ "image/png"
+    "image/png"
+    "image/gif"
     "io"
     "os"
 )
@@ -28,7 +29,7 @@ func toGIF(in io.Reader, out io.Writer) error {
         return err
     } else {
         fmt.Fprintln(os.Stderr, "input format =", kind)
-        return jpeg.Encode(out, img, &jpeg.Options{Quality: 95})
+        return gif.Encode(out, img, &gif.Options{Quality: 95})
     }
 }
 
@@ -65,5 +66,4 @@ func main() {
             fmt.Fprintf(os.Stderr, "png: %v\n", err)
         }
     }
-
 }
