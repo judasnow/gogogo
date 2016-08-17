@@ -13,7 +13,7 @@ const (
 
 
 func main() {
-	struct {
+	type User struct {
 		name string
 		age int
 	}
