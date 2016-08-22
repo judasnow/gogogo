@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920b8517-8349-4c79-9c1a-f8543c10dd9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1_ex1.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1_ex2.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1_ex3.go" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__stonego_.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1_ex4.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stonego.iml" afterPath="$PROJECT_DIR$/stonego.iml" />
     </list>
     <ignored path="stonego.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,14 +72,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ch1_ex3.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ch1_ex3.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch1_ex3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="176">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#14#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch1_ex4.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch1_ex4.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,6 +164,7 @@
         <option value="$PROJECT_DIR$/ch1_ex2.go" />
         <option value="$PROJECT_DIR$/ch1_ex1.go" />
         <option value="$PROJECT_DIR$/ch1_ex3.go" />
+        <option value="$PROJECT_DIR$/ch1_ex4.go" />
       </list>
     </option>
   </component>
@@ -969,12 +976,12 @@
       <workItem from="1471532884684" duration="1215000" />
       <workItem from="1471615784997" duration="6675000" />
       <workItem from="1471702568360" duration="1604000" />
-      <workItem from="1471747187954" duration="6666000" />
+      <workItem from="1471747187954" duration="8483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91417000" />
+    <option name="totallyTimeSpent" value="93234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="233" y="23" width="1516" height="1100" extended-state="0" />
@@ -1034,13 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch4_treesort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch4_github.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1348,11 +1348,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch1_ex3.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#14#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch1_ex4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
