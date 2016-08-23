@@ -2,6 +2,7 @@
   <library name="GOPATH &lt;stonego&gt;">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../rpc" />
       <root url="file://$PROJECT_DIR$/../gorm" />
       <root url="file://$PROJECT_DIR$/../message" />
       <root url="file://$PROJECT_DIR$/../github.com" />
@@ -9,6 +10,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../rpc" />
       <root url="file://$PROJECT_DIR$/../gorm" />
       <root url="file://$PROJECT_DIR$/../message" />
       <root url="file://$PROJECT_DIR$/../github.com" />

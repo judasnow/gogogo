@@ -1,5 +1,7 @@
 package main
 
+// gorm 的测试
+
 import (
     "fmt"
     "github.com/jinzhu/gorm"
@@ -13,6 +15,14 @@ type User struct {
     Password string `gorm:"size:128"`
     Email string `gorm:"size:255"`
     Posts []Post `gorm:"many2many:user_posts"`
+}
+
+// 全局关闭表名的复数化
+// db.SingularTable(true)
+
+// 修改默认的表名
+func (u User) TableName() string {
+    return "t_users"
 }
 
 type Post struct {
