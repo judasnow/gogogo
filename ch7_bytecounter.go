@@ -2,15 +2,24 @@ package main
 
 import (
 	"fmt"
-	"unsafe"
 )
 
+type ByteCounter int
+
+// 这里为什么不能直接使用 int 类型 ???
+// 也就是接收器为什么不能是 int 类型 ???
+func (c *ByteCounter) Write(p []byte) (int, error) {
+    *c += ByteCounter(len(p))
+    return len(p), nil
+}
+
 func main() {
-	a := int(32)
-	m := new(map[string]int)
-	// 指针是即时求的一个值 并没有对应的变量存在
-	// sizeof 返回的是占用的量 而并不是说明真的
-	// 已经分配了多少内存
-	fmt.Printf("a: %T, %d\n", &a, unsafe.Sizeof(&a))
-	fmt.Printf("m: %T, %d\n", m, unsafe.Sizeof(m))
+    var c ByteCounter
+
+    c.Write([]byte("hello"))
+    fmt.Println(c)
+    c = 0
+    var name = "Dolly"
+    fmt.Fprintf(&c, "hello, %s", name)
+    fmt.Println(c)
 }
