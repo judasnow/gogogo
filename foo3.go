@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 import "unsafe"
+import "strings"
 
 // 结构体
 
@@ -58,4 +59,7 @@ func main() {
     t2 := T{1, 2}
 
     fmt.Println(t1, t2)
+
+    x := "10-24"
+    strings.Replace
 }

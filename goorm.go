@@ -3,12 +3,22 @@ package main
 // gorm 的测试
 
 import (
-    "fmt"
     "github.com/jinzhu/gorm"
     _ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
+type Profile struct {
+    gorm.Model
+    Name string
+}
+
 type User struct {
+    gorm.Model
+    Profile      Profile `gorm:"ForeignKey:ProfileRefer"` // use ProfileRefer as foreign key
+    ProfileRefer int
+}
+
+type User1 struct {
     gorm.Model
 
     Username string `gorm:"size:255"`
@@ -40,10 +50,12 @@ type Relationship struct {
 }
 
 func main() {
-    db, err := gorm.Open("mysql",
+    db, _ := gorm.Open("mysql",
         "vagrant:vagrant@(vagrant:3306)" +
-            "/goorm?charset=utf8&parseTime=True&loc=Local")
+            "/gorm?charset=utf8&parseTime=True&loc=Local")
 
-    fmt.Println(err)
+    db.CreateTable(&Profile{})
+    db.CreateTable(&User{})
+
     defer db.Close()
 }

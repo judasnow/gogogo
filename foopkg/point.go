@@ -1,5 +1,8 @@
 package foopkg
 
+// 导出的内容需要精心设计
+// 和 api 接口一样 一旦暴露就容易再修改
+
 type Pointfoo struct {
     x int
     y int

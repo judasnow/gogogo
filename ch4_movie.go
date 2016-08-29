@@ -32,7 +32,7 @@ func main() {
 
     fmt.Printf("%s\n", data)
 
-    // 一次性的结构体类型 不
+    // 一次性的结构体类型
     var titles []struct{ Title string }
 
     // 对于结构体的解构 只提取指定的键下面的值

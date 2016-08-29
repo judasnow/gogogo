@@ -6,6 +6,8 @@
       <root url="file://$PROJECT_DIR$/../gorm" />
       <root url="file://$PROJECT_DIR$/../message" />
       <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../../../codoon/src/club-backend" />
+      <root url="file://$PROJECT_DIR$/../../../codoon/src/userprofile" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
@@ -14,6 +16,8 @@
       <root url="file://$PROJECT_DIR$/../gorm" />
       <root url="file://$PROJECT_DIR$/../message" />
       <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../../../codoon/src/club-backend" />
+      <root url="file://$PROJECT_DIR$/../../../codoon/src/userprofile" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
