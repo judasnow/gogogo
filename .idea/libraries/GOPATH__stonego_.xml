@@ -1,13 +1,6 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;stonego&gt;">
     <CLASSES>
-<<<<<<< HEAD
-      <root url="file://$PROJECT_DIR$/../src/github.com" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/../src/github.com" />
-=======
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../rpc" />
       <root url="file://$PROJECT_DIR$/../gorm" />
@@ -27,7 +20,6 @@
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../../../codoon/src/club-backend" />
       <root url="file://$PROJECT_DIR$/../../../codoon/src/userprofile" />
->>>>>>> 3ac1950536357c7a07f0e558efbf1d0d92a2b84c
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
