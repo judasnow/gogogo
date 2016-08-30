@@ -18,6 +18,7 @@ type ColoredPoint struct {
     Color color.RGBA
 }
 
+
 func main() {
 
 }
