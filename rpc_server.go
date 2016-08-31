@@ -8,7 +8,6 @@ import (
 )
 
 // 为啥 rpc server 中必须是一个方法 ???
-// 函数
 
 type Args struct {
     A int
