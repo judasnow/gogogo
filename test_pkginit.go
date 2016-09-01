@@ -14,4 +14,24 @@ func init() {
 	fmt.Printf("init2 main\n")
 }
 
-func main() {}
+
+// link: http://stackoverflow.com/questions/24790175/when-is-the-init-function-in-go-golang-run
+var WhatIsThe = AnswerToLife()
+
+func AnswerToLife() int {
+	return 42
+}
+
+func init() {
+	WhatIsThe = 0
+}
+
+func main() {
+	// init 会在 main 之前被调用
+	if WhatIsThe == 0 {
+		fmt.Println("It's all a lie.")
+	} else {
+		fmt.Println("It's 42")
+	}
+}
+
