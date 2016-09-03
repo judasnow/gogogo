@@ -21,7 +21,11 @@ func (wc *wordCount) Write(p []byte) (int, error) {
 func main() {
 	var wc wordCount = 0
 
-	// fmt.Fprintf(wc, "abcd", "2048")
 	wc.Write([]byte("abcd"))
-	fmt.Print(wc)
+	fmt.Println(wc)
+
+	wc = 0
+
+	fmt.Fprintf(&wc, "abcd%s", "efg")
+	fmt.Println(wc)
 }
