@@ -3,28 +3,22 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../rpc" />
-      <root url="file://$PROJECT_DIR$/../../../codoon/src/club-backend" />
       <root url="file://$PROJECT_DIR$/../gorm" />
       <root url="file://$PROJECT_DIR$/../message" />
-      <root url="file://$PROJECT_DIR$/../../../codoon/src/club-backend±" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../golang.org" />
       <root url="file://$PROJECT_DIR$/../../../codoon/src/baymax" />
-      <root url="file://$PROJECT_DIR$/../../../codoon/src/Baymax~" />
       <root url="file://$PROJECT_DIR$/../../../codoon/src/userprofile" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../rpc" />
-      <root url="file://$PROJECT_DIR$/../../../codoon/src/club-backend" />
       <root url="file://$PROJECT_DIR$/../gorm" />
       <root url="file://$PROJECT_DIR$/../message" />
-      <root url="file://$PROJECT_DIR$/../../../codoon/src/club-backend±" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../golang.org" />
       <root url="file://$PROJECT_DIR$/../../../codoon/src/baymax" />
-      <root url="file://$PROJECT_DIR$/../../../codoon/src/Baymax~" />
       <root url="file://$PROJECT_DIR$/../../../codoon/src/userprofile" />
     </SOURCES>
     <excluded>
