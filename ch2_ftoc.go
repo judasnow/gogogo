@@ -13,4 +13,3 @@ func main() {
 	fmt.Printf("%g F = %g C\n", freezingF, fToC(freezingF))
 	fmt.Printf("%g F = %g C\n", boilingF, fToC(boilingF))
 }
-

@@ -1,11 +1,31 @@
 package main
 
+import "fmt"
+import "unsafe"
 
-// 允许多个 tag 但需要使用空格进行分割
+// 类型别名不会继承方法啊 reciver 类型不同 也是可以理解的
 type Foo struct {
-	Name string `json:"name" gorm:"size:32"`
+	Name string
+}
+func (Foo) Bar() {
+	fmt.Println("1024")
+}
+
+type Baz Foo
+
+
+type Bar struct {
+	Name []Baz
 }
 
 func main() {
-	foo := Foo{Name: "1024"}
+	// b := Baz{}
+	// b.Bar()
+
+	var b []Baz
+	fmt.Printf("%+v\n", b)
+	fmt.Printf("%d\n", unsafe.Sizeof(b))
+
+	c := make([]Baz, 0)
+	fmt.Printf("%+v\n", c)
 }
