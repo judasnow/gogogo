@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"bytes"
 )
 
 type S struct {
@@ -19,4 +20,5 @@ func main() {
 	s := new(S)
 	(*s).p()
 	(*s).p2()
+	bytes.Buffer{}
 }
